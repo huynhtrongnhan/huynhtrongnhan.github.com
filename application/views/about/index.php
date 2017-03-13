@@ -1,0 +1,2 @@
+<h3>Content: This is Index View of About</h3>
+<p>AboutWeb is an approved Qualified HUBZone Small Business Concern. This certification allows us to better support our government clients and open new avenues to business. Combined with our nearly two decades of IT solutions expertise, ten years of Prime Government Contracting experience and our core team of technology and staffing professionals, this qualification creates opportunities for AboutWeb and our partners.</p>
