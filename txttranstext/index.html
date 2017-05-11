@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html class=''>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style class="cp-pen-styles">
+#chap {
+  font-size: 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;  
+}
+body,a {
+  font-family: arial;
+}
+* {
+  text-decoration: none;
+}
+a {
+  color: #0e0e0e;
+  font-weight: bold;
+  font-size: 20px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+.one {
+  zoom: 1;
+}
+.haft {
+  zoom: 0.5;
+}
+.four {
+  zoom: 0.25
+}
+/* @media screen and (max-width: 870px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+} */</style>
+  
+  </head>
+  <body>
+    <div class="header">
+  <div class="left">
+    <a href="#" target="_blank">Totsukuni no Shoujo</a>
+    <a id="chap" href="#" target=""> chap 1 </a>
+    size:
+    <a id="one" href="#" target=""> 1 </a>
+    <a id="075" href="#" target=""> 0.75 </a>
+
+    <a id="haft" href="#" target=""> 0.5 </a>
+    <a id="four" href="#" target=""> 0.25 </a>
+    <a id="zero" href="#" target=""> M</a>
+  </div>
+  <div class="right">
+    <a id="pages" href="#" target=""> pages</a>
+    <a id="night" href="#" target=""> night</a>
+  </div>
+</div>
+<div class="image this">
+  <img src="http://2.p.mpcdn.net/354682/672162/1.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/2.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/3.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/4.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/5.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/6.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/7.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/8.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/9.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/10.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/11.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/12.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/13.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/14.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/15.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/16.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/17.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/18.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/19.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/20.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/21.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/22.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/23.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/24.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/25.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/26.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/27.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/28.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/29.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/30.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/31.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/32.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/33.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/34.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/35.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/36.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/37.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/38.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/39.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/40.jpg" alt="" />
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script>$(document).ready(function(){
+    $("#one").click(function(){
+      $(".image").css("zoom", "1");
+      $(".image img").css("width", "auto");
+
+    });
+    $("#075").click(function(){
+      $(".image").css("zoom", "0.75");
+      $(".image img").css("width", "auto");
+
+    });
+    $("#haft").click(function(){
+      $(".image").css("zoom", "0.5");
+      $(".image img").css("width", "auto");
+      
+    });
+    $("#four").click(function(){
+      $(".image").css("zoom", "0.25");
+      $(".image img").css("width", "auto");
+    
+    });
+    $("#zero").click(function(){
+      $(".image img").css("width", "100%");
+    });
+    $("#night").click(function(){
+      $("body").css("background", "#1e1e1e");
+      $("body").css("color", "#aeaeae");
+      $("a").css("color", "#aeaeae");
+    });
+
+});
+//# sourceURL=pen.js
+</script>
+</body></html>
