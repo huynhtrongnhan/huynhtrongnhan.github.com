@@ -1,0 +1,119 @@
+
+<!DOCTYPE html><html class=''>
+<head><script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" /><link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" /><link rel="canonical" href="https://codepen.io/huynhtrongnhan/pen/rmdVxY" />
+
+
+<style class="cp-pen-styles">#chap {
+  font-size: 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;  
+}
+body,a {
+  font-family: arial;
+}
+* {
+  text-decoration: none;
+}
+a {
+  color: #0e0e0e;
+  font-weight: bold;
+  font-size: 20px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+.one {
+  zoom: 1;
+}
+.haft {
+  zoom: 0.5;
+}
+.four {
+  zoom: 0.25
+}
+/* @media screen and (max-width: 870px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+} */</style></head><body>
+    <div class="header">
+  <div class="left">
+    <a href="#" target="_blank">Totsukuni no Shoujo</a>
+    <a id="chap" href="#" target=""> chap 1 </a>
+    size:
+    <a id="one" href="#" target=""> 1 </a>
+    <a id="075" href="#" target=""> 0.75 </a>
+
+    <a id="haft" href="#" target=""> 0.5 </a>
+    <a id="four" href="#" target=""> 0.25 </a>
+    <a id="zero" href="#" target=""> M</a>
+    <a id="night" href="#" target=""> pages</a>
+    <a id="night" href="#" target=""> night</a>
+  </div>
+  <div class="right">
+<!--     <a id="night" href="#" target=""> pages</a>
+    <a id="night" href="#" target=""> night</a> -->
+  </div>
+</div>
+<div class="image this">
+  <img src="http://2.p.mpcdn.net/354682/672162/1.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/2.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/3.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/4.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/5.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/6.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/7.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/8.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/9.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/10.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/11.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/12.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/13.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/14.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/15.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/16.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/17.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/18.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/19.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/20.jpg" alt="" />
+  <img src="http://2.p.mpcdn.net/354682/672162/21.jpg" alt="" />
+</div>
+<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script>$(document).ready(function(){
+    $("#one").click(function(){
+      $(".image").css("zoom", "1");
+      $(".image img").css("width", "auto");
+
+    });
+    $("#075").click(function(){
+      $(".image").css("zoom", "0.75");
+      $(".image img").css("width", "auto");
+
+    });
+    $("#haft").click(function(){
+      $(".image").css("zoom", "0.5");
+      $(".image img").css("width", "auto");
+      
+    });
+    $("#four").click(function(){
+      $(".image").css("zoom", "0.25");
+      $(".image img").css("width", "auto");
+    
+    });
+    $("#zero").click(function(){
+      $(".image img").css("width", "100%");
+    });
+    $("#night").click(function(){
+      $("body").css("background", "#1e1e1e");
+      $("body").css("color", "#aeaeae");
+      $("a").css("color", "#aeaeae");
+    });
+
+});
+//# sourceURL=pen.js
+</script>
+</body></html>
