@@ -8,18 +8,51 @@ $(function(){
 <link rel="stylesheet" href="mycss.css">
 <style type="text/css">
 /*in mycss.css*/
+// Variable
+$white: #eee;
+$white-down: #ddd;
+$white-down-down: #ccc;
+
+.container{
+  background-color: $white;
+  margin: auto;
+  margin-top: 10px;
+  border: solid 1px;
+  padding: 5px;
+  // width: 300px;
+  
+  
+}
+// Tab
+  .tab{
+    display: flex;
+    
+    .tab-item{
+      height: 30px;
+      background: $white-down-down;
+      line-height: 30px;
+      padding: 0 10px;
+      &:nth-child(1){
+        background: $white-down;
+      }
+    }
+  }
+  
+  // Content
+  .content{
+    background: $white-down;
+    padding: 5px;
+    text-align: justify;
+  }
 </style>
 <!-- start -->
-<div id="includedContent"></div> 
-<title>Tut extension block site #tut#blocksite</title>
-<img class="big" src="http://lorempixel.com/400/200/" style="display: none">
-<div class"draff" style="width:90%;text-align: justify;">
-<pre style="white-space: pre-wrap;">
-
-- cài đặt
-<img class="big" src="http://lorempixel.com/400/200/">
-- dịch sang tiếng việt
-- vào tab trang web bị chặn, thêm trang mà bạn muốn, vd facebook.com: khi thế này những trang bạn thêm sẻ không vào đựoc, nếu muốn đảo ngược lại thành chỉ đựoc chi cập những trang này thì sao?
-- vào tab cài đặt tick mục "Danh sách trắng - Chỉ cho phép truy cập vào các trang web trên "các trang web bị chặn"" là bây giờ bạn chỉ vào được facebook.
-</pre>
+<div class="container">
+  <div class="tab">
+    <div class="tab-item">Vietnam</div>
+    <div class="tab-item">English</div>
+    <div class="tab-item">Trans</div>
+  </div>
+  <div class="content">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque id iusto eligendi amet similique quia. Distinctio consequatur quidem, eaque voluptate, quaerat necessitatibus optio inventore amet maiores aut, natus impedit ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque id iusto eligendi amet similique quia. Distinctio consequatur quidem, eaque voluptate, quaerat necessitatibus optio inventore amet maiores aut, natus impedit ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque id iusto eligendi amet similique quia. Distinctio consequatur quidem, eaque voluptate, quaerat necessitatibus optio inventore amet maiores aut, natus impedit ex.
+  </div>
 </div>
