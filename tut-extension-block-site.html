@@ -8,42 +8,31 @@ $(function(){
 <link rel="stylesheet" href="mycss.css">
 <style type="text/css">
 /*in mycss.css*/
-// Variable
-$white: #eee;
-$white-down: #ddd;
-$white-down-down: #ccc;
-
-.container{
-  background-color: $white;
+.container {
+  background-color: #eee;
   margin: auto;
   margin-top: 10px;
   border: solid 1px;
   padding: 5px;
-  // width: 300px;
-  
-  
 }
-// Tab
-  .tab{
-    display: flex;
-    
+.container .tab {
+  display: flex;
+}
+.container .tab .tab-item {
+  height: 30px;
+  background: #ccc;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.container .tab .tab-item:nth-child(1) {
+  background: #ddd;
+}
+.container .content {
+  background: #ddd;
+  padding: 5px;
+  text-align: justify;
+}
 
-  }
-      .tab-item{
-      height: 30px;
-      background: $white-down-down;
-      line-height: 30px;
-      padding: 0 10px;
-      &:nth-child(1){
-        background: $white-down;
-      }
-    }
-  // Content
-  .content{
-    background: $white-down;
-    padding: 5px;
-    text-align: justify;
-  }
 </style>
 <!-- start -->
 <div class="container">
