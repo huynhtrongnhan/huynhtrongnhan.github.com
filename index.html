@@ -4,8 +4,12 @@ body {
   background-image: url("red-book-bg.jpg");
   background-size: 100% auto;
 }
-a{
-  border: 5px solid #5F2908;
+img{
+  border: 10px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(red-book-bg.jpg) 30 round; /* Safari 3.1-5 */
+  -o-border-image: url(red-book-bg.jpg) 30 round; /* Opera 11-12.1 */
+  border-image: url(red-book-bg.jpg) 30 round;
   }
   @import url(//db.onlinewebfonts.com/c/d107335f5dfb4b86f0206569862765b7?family=BilboDisplay);
   @font-face {font-family: "BilboDisplay";
